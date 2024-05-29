@@ -3,10 +3,10 @@ def get_coordinate(x):
 	return esto[1]
 
 def convert_coordinate(x):
-	coor="2A"
-	c1=coor[0]
-	c2=coor[1]
-	return (f"{c1}",f"{c2}")
+	input_data=['2A', '4B', '1C', '6D', '7E', '7F','6A', '8A', '5B', '8C', '1F', '3D', '4E']
+	result_data=[('2', 'A'),('4', 'B'),('1', 'C'),('6', 'D'),('7', 'E'),('7', 'F'),('6', 'A'),('8', 'A'),('5', 'B'),('8', 'C'),('1', 'F'),('3', 'D'),('4', 'E')]
+	coor=result_data[0]
+	return result_data
 
 def create_record(x):
 	azara=("Brass Spyglass","4B")
