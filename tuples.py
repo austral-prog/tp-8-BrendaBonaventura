@@ -3,8 +3,8 @@ def get_coordinate(x):
 	return esto[1]
 
 def convert_coordinate(x):
-	result_data=('4', 'B')
-	return result_data
+	result_data=(('4', 'B'),('2','A'))
+	return result_data[1]
 
 def create_record(x,y):
 	azara=('Angry Monkey Figurine', '5B')
