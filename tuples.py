@@ -1,4 +1,4 @@
-def get_coordinates(x):
+def get_coordinate(x):
 	esto=("Scrimshawed Whale Tooth","2A")
 	return esto[1]
 
