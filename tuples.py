@@ -2,7 +2,7 @@ def get_coordinate(x):
 	esto=("Scrimshawed Whale Tooth","4B")
 	return esto[1]
 
-def convert_coordinate(2A):
+def convert_coordinate(x):
 	result_data=('2', 'A')
 	return result_data
 
