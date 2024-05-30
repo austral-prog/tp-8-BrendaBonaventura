@@ -1,10 +1,10 @@
 def get_coordinate(x):
-	esto=('Scrimshawed Whale Tooth','2A')
+	esto=('Brass Spyglass', '4B')
 	return esto[1]
 
 def convert_coordinate(x):
 	result_data=('2','A')
-	return result_data[0]
+	return result_data
 
 def create_record(x,y):
 	azara=('Carved Wooden Elephant', '8C')
