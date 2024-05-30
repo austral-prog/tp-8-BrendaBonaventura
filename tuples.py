@@ -1,18 +1,17 @@
-def get_coordinate(x):
-	esto=('Brass Spyglass', '4B')
-	return esto[1]
+def get_coordinate(record):
+    record=record[1]
+    return record
 
-def convert_coordinate(x):
-	result_data=('2','A')
-	return result_data
 
-def create_record(x,y):
-	azara=('Carved Wooden Elephant', '8C')
-	rui=('Foggy Seacave', ('8C'), 'Purple')
-	dos=azara[1]
-	uno=rui[1]
-	if dos==uno:
-		rui=('Foggy Seacave', ('8', 'C'), 'Purple')
-		return azara+rui
-	else:
-		return "no coincide"
+def convert_coordinate(coordinate):
+    c1=coordinate[0]
+    c2=coordinate[1]
+    return (c1,c2)
+
+
+def create_record(azara_record, rui_record):
+    CA=convert_coordinate(get_coordinate(azara_record))
+    if CA==rui_record[1]:
+        return (azara_record[0],azara_record[1],rui_record[0], rui_record[1], rui_record[2])
+    else:
+        return "not a match"
